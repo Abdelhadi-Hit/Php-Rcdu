@@ -7,7 +7,7 @@ Create a table named *crud* inside your MySQL database using the following code
 ```sql
 USE phpDB;
 
-CREATE TABLE phpDB.crudidcrud (
+CREATE TABLE phpDB.crud (
    id int(255) NOT NULL AUTO_INCREMENT,
   first_name varchar(255) NOT NULL,
   last_name varchar(255) NOT NULL,
@@ -21,6 +21,6 @@ CREATE TABLE phpDB.crudidcrud (
 
 in root folder run php -S localhost:port 
 
-then 
+->then->
 
-access for exemple localhost;port/add-new.php
+access localhost:port/add-new.php
